@@ -10,32 +10,33 @@ int main()
         float tinggi_rumah;
         string pemilik_rumah;
     };
-    Rumah pertama[2];
-    pertama[0].tipe_rumah = "46A";
-    pertama[0].jumlah_kamar = 2;
-    pertama[0].luas_rumah = 40.7;
-    pertama[0].tinggi_rumah = 13.5;
-    pertama[0].pemilik_rumah = "Rendi";
+    Rumah pertama;
+    pertama.tipe_rumah = "46A";
+    pertama.jumlah_kamar = 2;
+    pertama.luas_rumah = 40.7;
+    pertama.tinggi_rumah = 13.5;
+    pertama.pemilik_rumah = "Rendi";
 
-    cout << "Pemilik Rumah : " << pertama[0].pemilik_rumah << endl;
-    cout << "Tipe Rumah : " << pertama[0].tipe_rumah << endl;
-    cout << "Jumlah Kamar : " << pertama[0].jumlah_kamar << endl;
-    cout << "Luas Rumah : " << pertama[0].luas_rumah << endl;
-    cout << "Tinggi Rumah : " << pertama[0].tinggi_rumah << endl;
+    cout << "Pemilik Rumah : " << pertama.pemilik_rumah << endl;
+    cout << "Tipe Rumah : " << pertama.tipe_rumah << endl;
+    cout << "Jumlah Kamar : " << pertama.jumlah_kamar << endl;
+    cout << "Luas Rumah : " << pertama.luas_rumah << endl;
+    cout << "Tinggi Rumah : " << pertama.tinggi_rumah << endl;
 
     cout << endl;
 
-    pertama[1].tipe_rumah = "42A";
-    pertama[1].jumlah_kamar = 5;
-    pertama[1].luas_rumah = 120.5;
-    pertama[1].tinggi_rumah = 20.5;
-    pertama[1].pemilik_rumah = "Ahmad";
+    Rumah kedua;
+    kedua.tipe_rumah = "42A";
+    kedua.jumlah_kamar = 5;
+    kedua.luas_rumah = 120.5;
+    kedua.tinggi_rumah = 20.5;
+    kedua.pemilik_rumah = "Ahmad";
 
-    cout << "Pemilik Rumah : " << pertama[1].pemilik_rumah << endl;
-    cout << "Tipe Rumah : " << pertama[1].tipe_rumah << endl;
-    cout << "Jumlah Kamar : " << pertama[1].jumlah_kamar << endl;
-    cout << "Luas Rumah : " << pertama[1].luas_rumah << endl;
-    cout << "Tinggi Rumah : " << pertama[1].tinggi_rumah << endl;
+    cout << "Pemilik Rumah : " << kedua.pemilik_rumah << endl;
+    cout << "Tipe Rumah : " << kedua.tipe_rumah << endl;
+    cout << "Jumlah Kamar : " << kedua.jumlah_kamar << endl;
+    cout << "Luas Rumah : " << kedua.luas_rumah << endl;
+    cout << "Tinggi Rumah : " << kedua.tinggi_rumah << endl;
 
     return 0;
 }
